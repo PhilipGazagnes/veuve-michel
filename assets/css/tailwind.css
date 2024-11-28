@@ -1,3 +1,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600|Playball&display=swap');
+
+@layer base {
+  body {
+    @apply font-raleway text-textcolor text-lg leading-6;
+  }
+}
