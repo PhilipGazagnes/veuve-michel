@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "classes",
+    "className",
+    "ngClass",
+    "theme.*",
+    ".*_THEME.*",
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    "mergeObjects\\(([^)]*)\\)", "'([^']*)'"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
